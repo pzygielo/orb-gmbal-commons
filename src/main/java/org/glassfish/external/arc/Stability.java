@@ -14,7 +14,7 @@ package org.glassfish.external.arc;
 /**
   Taxonomy values.
   See http://opensolaris.org/os/community/arc/policies/interface-taxonomy/
-  <h3>Policy</h3>
+  <h2>Policy</h2>
     <ul>
     <li>Applies to All software produced by SMI</li>
     <li>Authority SAC</li>
