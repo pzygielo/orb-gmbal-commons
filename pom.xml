@@ -58,7 +58,6 @@
 
     <properties>
         <maven.compiler.release>11</maven.compiler.release>
-        <legal.doc.source>${maven.multiModuleProjectDirectory}</legal.doc.source>
     </properties>
 
     <dependencies>
@@ -149,12 +148,12 @@
                         <configuration>
                             <resources>
                                 <resource>
-                                    <directory>${legal.doc.source}</directory>
+                                    <directory>${project.basedir}</directory>
                                     <includes>
                                         <include>NOTICE.md</include>
                                         <include>LICENSE.md</include>
                                     </includes>
-                                    <targetPath>META-INF</targetPath>
+                                    <targetPath>${project.build.outputDirectory}/META-INF</targetPath>
                                 </resource>
                             </resources>
                         </configuration>
